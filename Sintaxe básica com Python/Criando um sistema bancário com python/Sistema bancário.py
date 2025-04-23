@@ -30,3 +30,27 @@ def saque (Valor):
     print("Novo saldo: R$", Saldo)
     print("Extrato: ", Extrato)
 
+# Extrato do banco
+def extrato():
+    print("Extrato: ", Extrato)
+
+# Menu de opções
+def menu():
+    print("1 - Depositar")
+    print("2 - Sacar")
+    print("3 - Extrato")
+    print("4 - Sair")
+    opcao = int(input("Digite a opção: "))
+    if opcao == 1:
+        deposito(Deposito)
+    elif opcao == 2:
+        saque(Sacar)
+    elif opcao == 3:
+        extrato()
+    elif opcao == 4:
+        exit()
+    else:
+        print("Opção inválida!")
+        menu()
+
+menu()  
