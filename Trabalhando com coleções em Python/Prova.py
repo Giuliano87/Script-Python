@@ -124,7 +124,7 @@ class BancoItau(Banco):
 
     def __str__(self):
         return f"Banco Itau: {self.nome}\nContas: {self.contas}\nData: {self.data}\nHora: {self.hora}"  
-    self = BancoItau(Fagner_Jacob)
+    self = BancoItau(Fagner_Jacob) # type: ignore
     self.abrir_conta(Conta(1234, "Fagner_Jacob", 5000, datetime.now(), datetime.now().time()))
     self.abrir_conta(ContaEspecial(5678, "Fagner_Jacob", 10000, datetime.now(), datetime.now().time(), 5000))
     self.extrato(self.contas[0])
