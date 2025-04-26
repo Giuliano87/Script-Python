@@ -124,4 +124,13 @@ class BancoItau(Banco):
 
     def __str__(self):
         return f"Banco Itau: {self.nome}\nContas: {self.contas}\nData: {self.data}\nHora: {self.hora}"  
-    
+    self = BancoItau(Fagner_Jacob)
+    self.abrir_conta(Conta(1234, "Fagner_Jacob", 5000, datetime.now(), datetime.now().time()))
+    self.abrir_conta(ContaEspecial(5678, "Fagner_Jacob", 10000, datetime.now(), datetime.now().time(), 5000))
+    self.extrato(self.contas[0])
+    self.extrato(self.contas[1])
+    self.transferencia(self.contas[0], self.contas[1], 2000)
+    self.extrato(self.contas[0])
+    self.extrato(self.contas[1])
+    self.fechar_conta(self.contas[1])
+    self.extrato(self.contas[0])
