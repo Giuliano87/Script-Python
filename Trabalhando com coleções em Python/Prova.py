@@ -118,3 +118,10 @@ class BancoItau(Banco):
         self.contas.remove(conta)
 
     def extrato(self, conta):
+        conta.extrato()
+        self.data = datetime.now()
+        self.hora = datetime.now().time()
+
+    def __str__(self):
+        return f"Banco Itau: {self.nome}\nContas: {self.contas}\nData: {self.data}\nHora: {self.hora}"  
+    
