@@ -118,10 +118,3 @@ class BancoItau(Banco):
         self.contas.remove(conta)
 
     def extrato(self, conta):
-        conta.extrato()
-
-    def transferencia(self, conta_origem, conta_destino, valor):
-        conta_origem.transferir(valor, conta_destino)
-
-    def __str__(self):
-        return f"Banco Itau: {self.nome}\nContas: {self.contas}"       
