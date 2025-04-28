@@ -319,9 +319,9 @@ if valor > 0:
                                             conta["saldo"] = saldo
                                             conta["extrato"] = extrato
                     elif opcao == "5":
-                            cpf = input("CPF: ")
-                            valor = float(input("Valor da transferencia: "))
-                            destino = input("Destino: ")
+                            cpf = input("CPF:384.000.123-   0") 
+                            valor = float(input("Valor da transferencia: 1000.00"))
+                            destino = input("Destino: Fernando Oliveira Lima")
                             for conta in contas:
                                     if conta["cpf"] == cpf:
                                             saldo, extrato = transferir(conta["saldo"],valor,destino,conta["extrato"])
@@ -341,7 +341,63 @@ if valor > 0:
                     else:
                             print("Opção inválida!")
             listar_contas(contas)
-            return contas # type: ignore" extrato": 
-    
+            return contas # type: ignore validation     
+            return contas # type: ignore valor = float(input("Valor da transferencia: "))
+            return contas # type: ignore destino = input("Destino: ")
+            return contas # type: ignore saldo, extrato = transferir(conta["saldo"],valor,destino,conta["extrato"])
+            return contas # type: ignore conta["saldo"] = saldo
+            return contas # type: ignore conta["extrato"] = extrato
+            return contas # type: ignore saldo, extrato = depositar(conta["saldo"],valor,conta["extrato"])
+            return contas # type: ignore conta["saldo"] = saldo
+            return contas # type: ignore conta["extrato"] = extrato
+            return contas # type: ignore saldo, extrato = sacar(conta["saldo"],valor,conta["extrato"],conta["limite"],conta["numero_saques"],conta["limite_saques"])
+            return contas # type: ignore conta["saldo"] = saldo
+            return contas # type: ignore conta["extrato"] = extrato
+            return contas # type: ignore cpf, nome, idade, data_nascimento = cadastrar_conta()
+            return contas # type: ignore print("Conta criada com sucesso!")
+            return contas # type: ignore print(f"Nome: {conta['nome']}")
+    for conta in contas:
+                                    if conta["cpf"] == cpf:
+                                            saldo, extrato = transferir(conta["saldo"],valor,destino,conta["extrato"])
+                                            conta["saldo"] = saldo
+                                            conta["extrato"] = extrato
+                                return contas # type: ignore conta["saldo"] = saldo
+                                return contas # type: ignore conta["extrato"] = extrato
+                                return contas # type: ignore saldo, extrato = depositar(conta["saldo"],valor,conta["extrato"])
+                                return contas # type: ignore conta["saldo"] = saldo
+                                return contas # type: ignore conta["extrato"] = extrato
+                                return contas # type: ignore saldo, extrato = sacar(conta["saldo"],valor,conta["extrato"],conta["limite"],conta["numero_saques"],conta["limite_saques"])
+                                return contas # type: ignore conta["saldo"] = saldo
+                                return contas # type: ignore conta["extrato"] = extrato
+                                return contas # type: ignore cpf, nome, idade, data_nascimento = cadastrar_conta()
+                                return contas # type: ignore print("Conta criada com sucesso!")
+                                return contas # type: ignore print(f"Nome: {conta['nome']}")
+                                return contas # type: ignore print(f"Saldo: {conta['saldo']}")
+                                return contas # type: ignore print(f"Limite: {conta['limite']}")
+                                return contas # type: ignore print(f"Limite de saques: {conta['limite_saques']}")
+                                return contas # type: ignore print(f"Número de saques: {conta['numero_saques']}")
+                                return contas # type: ignore print("Extrato:")
+                                return contas # type: ignore print("-"*30)
+                                return contas # type: ignore print(f"Data: {conta['extrato']}")
+                                return contas # type: ignore print(f"Nome: {conta['nome']}")
+                                return contas # type: ignore print(f"Saldo: {conta['saldo']}")
+                                return contas # type: ignore print("Extrato:")
+                                return contas # type: ignore print("-"*30)
+                                return contas # type: ignore print(f"Data: {conta['extrato']}")
+                                return contas # type: ignore print(f"Nome: {conta['nome']}")
+                                return contas # type: ignore print(f"Saldo: {conta['saldo']}")
+                                return contas # type: ignore print("Extrato:")
+                                return contas # type: ignore print("-"*30)
+                                return contas # type: ignore print(f"Data: {conta['extrato']}")
+                                return contas # type: ignore print(f"Nome: {conta['nome']}")
+                                return contas # type: ignore print(f"Saldo: {conta['saldo']}")
+                                return contas # type: ignore print("Extrato:")
+                                return contas # type: ignore print("-"*30)
+                                return contas # type: ignore print(f"Data: {conta['extrato']}")
+                                return contas # type: ignore print(f"Nome: {conta['nome']}")
+                                return contas # type: ignore print(f"Saldo: {conta['saldo']}")
+                                return contas # type: ignore print("Extrato:")
+                                return contas # type: ignore print("-"*30)
+                                
     
     
